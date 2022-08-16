@@ -21,4 +21,5 @@ to make this bot go
 * In the irb session, run `CincyRbot.run!`
 * Copy the bot's invite url in the console and visit that in a browser
 * Invite the bot to the Bot testing server
+* Try the message "flip a coin" in the server where the bot exists and is running
 * Play!
