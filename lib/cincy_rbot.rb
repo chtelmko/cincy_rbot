@@ -16,8 +16,10 @@ module CincyRbot
     srand # seed the randomizer
     bot = Discordrb::Bot.new token: ENV.fetch("DISCORD_BOT_TOKEN")
 
-    puts "This bot's invite URL is #{bot.invite_url(permission_bits: 526_133_873_728)}."
+    puts "This bot's invite URL is #{bot.invite_url(permission_bits: 526_133_873_728)}"
     puts "Click on it to invite it to your server."
+    puts "Your bot is running!"
+    puts "Ctrl+C followed by `quit` to exit"
 
     matchers = [CoinFlipper, DiceRoller]
 

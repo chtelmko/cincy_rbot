@@ -16,6 +16,8 @@ to make this bot go
 
 * Get a Discord account and create a Developer Application at https://discord.com/developers/applications
 * Make the Application a Bot, and generate and copy the Bot Token
+  * Click on the bot tab under the application, then click the "Add Bot" button to the right of the screen
+  * Click "Reset Token", then click "Copy" to put the bot token on the clipboard
 * Copy the `.env` file to `.env.local` and replace the area in the double quotes with your bot's token
 * Run `bundle console`
 * In the irb session, run `CincyRbot.run!`
