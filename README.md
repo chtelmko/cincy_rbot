@@ -1,39 +1,24 @@
 # CincyRbot
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cincy_rbot`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a Discord bot for use during the Cincy RB Meetup!
 
 ## Installation
 
-Add this line to your application's Gemfile:
+check this project out via git clone, then run
 
-```ruby
-gem 'cincy_rbot'
+```bash
+bundle install
 ```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install cincy_rbot
 
 ## Usage
 
-TODO: Write usage instructions here
+to make this bot go
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cincy_rbot. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/cincy_rbot/blob/main/CODE_OF_CONDUCT.md).
-
-## Code of Conduct
-
-Everyone interacting in the CincyRbot project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/cincy_rbot/blob/main/CODE_OF_CONDUCT.md).
+* Get a Discord account and create a Developer Application at https://discord.com/developers/applications
+* Make the Application a Bot, and generate and copy the Bot Token
+* Copy the `.env` file to `.env.local` and replace the area in the double quotes with your bot's token
+* Run `bundle console`
+* In the irb session, run `CincyRbot.run!`
+* Copy the bot's invite url in the console and visit that in a browser
+* Invite the bot to the Bot testing server
+* Play!
